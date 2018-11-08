@@ -1,0 +1,24 @@
+.map-body .filters {
+  padding: 10px;
+  background: #18181a;
+}
+
+.map-body .filters .btn-group .active {
+  background-color: #17a2b8;
+}
+.map-body .filters .form-control {
+  max-width: 300px;
+}
+@media screen and (min-width: 630px) {
+  .map-body .filters {
+    display: flex;
+  }
+  .map-body .filters .d-flex .input-group {
+    margin: 0 5px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .nav-btn {
+    float: right;
+  }
+}
